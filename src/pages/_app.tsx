@@ -1,7 +1,14 @@
 import '../styles/global.css';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+import { ChallengedProvider } from '../contexts/ChallengesContext';
 
-export default MyApp
+function MyApp({ Component, pageProps}) {
+
+  return (
+    <ChallengedProvider>
+      <Component {...pageProps} />
+    </ChallengedProvider>
+  )
+};
+
+export default MyApp;
