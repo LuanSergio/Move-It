@@ -1,34 +1,118 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Move.it
 
-## Getting Started
+<h1 align="center">
+  <a href="https://move-it-luansergio.vercel.app/">	
+    <img alt="Move.it" title="Move.it" src="/docs/logo.png" />
+  </a>
+</h1>
 
-First, run the development server:
+<p align="center">
+  <strong >
+    An application to help people make exercise during work/study. <br> Developed during the Next Level Week 4, created by Rocketseat. <br>
+    <a href="https://move-it-luansergio.vercel.app/">Click here</a> for a live version.
+  </strong>  
+</p>
+<br>
+
+<p align="center">
+  <a href="#star2-Features"><strong>Features</strong></a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#speech_balloon-About"><strong>About</strong></a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#art-Layout"><strong>Layout</strong></a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#robot-Technologies-and-Tools"><strong>Technologies</strong></a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#man_technologist-Running-Locally"><strong>Running Locally</strong></a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-License"><strong>License</strong></a>
+</p>
+
+<a href="https://move-it-luansergio.vercel.app/">	
+  <img src="/docs/icon.png" align="right" />
+</a>
+
+## :star2: Features:
+
+- <strong>Exercise reminder:</strong> When the timer goes off, the user will hear an sound and a notification pop up (if receive notifications is accepted by the user), to remind then of practicing an physical exercise. 
+
+- <strong>Level up!:</strong> This app has gamification to encourage the physical exercises.
+
+- <strong>Cookies:</strong> The level up progress is saved using cookies.
+
+- <strong>Random exercises:</strong> Every time the timer goes off, you are give a new exercise as challenge.
+
+<div align="center">
+  <img src="/docs/division.png" />
+</div>
+
+## :speech_balloon: About:
+
+<a href="https://move-it-luansergio.vercel.app/">	
+  <img src="/docs/layout-preview.png" />
+</a>
+
+### What is Next Level Week?
+
+Next Level Week is a recurring online programming event made by the brazilian company [Rocketseat](https://github.com/Rocketseat). The event only last one week, with all it's content being deleted after that period, to avoid procrastination, since you must finishes it in one week. Each event focus on different aspects of the proposed language/framework. [Click here](https://nextlevelweek.com/) to know more.
+
+<div align="center">
+  <img  src="/docs/division.png" />
+</div>
+
+## :art: Layout:
+
+<a href="https://www.figma.com/file/DNuDTw9PlapnVmOErPfUpS/Move.it-1.0-(Copy)?node-id=160%3A2761">	
+  <img src="/docs/layout-figma.png" />
+</a>
+
+You can **[click here](<https://www.figma.com/file/DNuDTw9PlapnVmOErPfUpS/Move.it-1.0-(Copy)?node-id=160%3A2761>)** to see the layout on Figma, or **[here](<https://www.figma.com/file/DNuDTw9PlapnVmOErPfUpS/Move.it-1.0-(Copy)/duplicate>)** to copy it to your own figma . The layout was made by **[Tiago Luchtenberg]**(https://www.instagram.com/tiagoluchtenberg/?hl=pt-br)
+
+<div align="center">
+  <img  src="/docs/division.png" />
+</div>
+
+## :robot: Technologies, tools and libraries
+
+<p>Technologies used in this project:</p>
+
+- [ReactJS](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Yarn](https://yarnpkg.com/)
+- [VS Code](https://code.visualstudio.com/)
+
+<p>Libraries:</p>
+
+- [js-cookie](https://github.com/js-cookie/js-cookie)
+
+<div align="center">
+  <img  src="/docs/division.png" />
+</div>
+
+## :man_technologist: Running Locally
+
+<p>You must have <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Git</a>, <a href="https://nodejs.org/en/">Node</a> and <a href="https://yarnpkg.com/">Yarn</a> (npm also works!) installed.
+
+On your favorite terminal, run the following commands:
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone the repository
+$ git clone https://github.com/LuanSergio/Move-It.git
+
+# Navigate to the project folder
+$ cd Move-It
+
+# Install dependencies
+$ yarn install
+
+# Run the application locally
+$ yarn dev
+
+# Build the application for production
+$ yarn build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<div align="center">
+  <img  src="/docs/division.png" />
+</div>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## :memo: License
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is under the MIT license.
+**[Click here for more information](LICENSE)**.
