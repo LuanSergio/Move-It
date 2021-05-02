@@ -44,7 +44,7 @@
 ## :speech_balloon: About:
 
 <a href="https://move-it-luansergio.vercel.app/">	
-  <img src="/docs/layout-preview.png" />
+  <img src="/docs/preview.png" />
 </a>
 
 ### What is Next Level Week?
